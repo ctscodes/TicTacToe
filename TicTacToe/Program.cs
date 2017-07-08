@@ -46,7 +46,7 @@ namespace TicTacToe
                 // don't allow place already taken to be chosen
                 else
                 {
-                    Console.WriteLine("Sorry the row {0} is already marked with {1}", choice, arr[choice]);
+                    Console.WriteLine("Sorry cell {0} is already marked with an {1}", choice, arr[choice]);
                     Console.WriteLine("\n");
                     Console.WriteLine("Please wait 2 seconds board is loading...");
                     Thread.Sleep(2000);
