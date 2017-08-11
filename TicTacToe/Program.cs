@@ -8,7 +8,7 @@ namespace TicTacToe
         static char[] arr = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9' };
         static int player = 1; //default player is 1
         static int choice;
-        static int flag = 0; // check is someone has won
+        static int flag = 0; // check if someone has won
 
         static void Main(string[] args)
         {
@@ -19,11 +19,11 @@ namespace TicTacToe
                 Console.WriteLine("\n");
                 if (player % 2 == 0)
                 {
-                    Console.WriteLine("player 2 turn");
+                    Console.WriteLine("player 2's turn");
                 }
                 else
                 {
-                    Console.WriteLine("player 1 turn");
+                    Console.WriteLine("player 1's turn");
                 }
                 Console.WriteLine("\n");
                 Board(); // call board function
