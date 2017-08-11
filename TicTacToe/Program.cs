@@ -108,6 +108,17 @@ namespace TicTacToe
 			{
 				return 1;
 			}
+			#endregion
+
+			#region Diagonal Win Condition
+			else if (arr[1] == arr[5] && arr[5] == arr[9])
+			{
+				return 1;
+			}
+			else if (arr[3] == arr[5] && arr[5] == arr[7])
+			{
+				return 1;
+			}
             #endregion
 
             #region Check for Draw
