@@ -48,7 +48,7 @@ namespace TicTacToe
                 {
                     Console.WriteLine("Sorry cell {0} is already marked with an {1}", choice, arr[choice]);
                     Console.WriteLine("\n");
-                    Console.WriteLine("Please wait 2 seconds board is loading...");
+                    Console.WriteLine("Please wait for the board to load...");
                     Thread.Sleep(2000);
                 }
                 flag = CheckWin(); //check for win
@@ -59,7 +59,7 @@ namespace TicTacToe
             {
                 Console.WriteLine("Player {0} has won", (player % 2) + 1);
             }
-            else 
+            else if (flag == -1)
             {
                 Console.WriteLine("Draw");
             }
