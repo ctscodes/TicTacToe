@@ -15,15 +15,16 @@ namespace TicTacToe
             do
             {
                 Console.Clear();
-                Console.WriteLine("Player1: X and Player2: O");
+                Console.WriteLine("Welcome to console Tic Tac Toe");
+                Console.WriteLine("Player1 is X and Player2 is O");
                 Console.WriteLine("\n");
                 if (player % 2 == 0)
                 {
-                    Console.WriteLine("player 2's turn");
+                    Console.WriteLine("Player 2's turn");
                 }
                 else
                 {
-                    Console.WriteLine("player 1's turn");
+                    Console.WriteLine("Player 1's turn");
                 }
                 Console.WriteLine("\n");
                 Board(); // call board function
